@@ -10,10 +10,52 @@
     font-weight: bold !important;
 }
 
+.nav__menu:hover {
+    background-color: azure !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
 .botao__pesquisa {
     color: white !important;
     background-color: #37cfcf !important;
     border-radius: 0.3em !important;
     border-color: rgb(47, 47, 114) !important;
     font-weight: bold !important;
+}
+
+.img-car {
+    max-height: 48em;
+}
+
+.carousel-caption {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #edededad !important;
+    width: auto !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.carousel-caption h3 {
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+.divisao {
+    background-color: rgb(47, 47, 114) !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 5% !important;
+}
+
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 2% !important;
+}
+
+.card {
+    margin-left: 2em;
+    padding: 1em;
 }
