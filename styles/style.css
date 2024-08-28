@@ -1,3 +1,5 @@
+
+
 .barra__navegacao {
     background-color: rgb(47,47,114) !important;
 }
@@ -59,3 +61,47 @@
     margin-left: 2em;
     padding: 1em;
 }
+
+footer {
+    background-color: rgb(47, 47, 114);
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+.formulario {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.356) !important;
+    background-color: rgb(248, 248, 248) !important;
+    color: rgb(231, 90, 39) !important;
+    font-weight: bold;
+    margin: 2% 0.1% !important;
+    padding: 1em !important;
+  
+}
+
+.formulario-redes {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.356) !important;
+    background-color: rgb(248, 248, 248) !important;
+    flex: 1 !important;
+    padding: 3em !important;
+    margin: 2% 1% !important;
+    text-align: center !important;
+}
+
+.imagem-logo-redes {
+    padding: 3em !important;
+}
+
+.parte-formulario-mae {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.botao-enviar {
+    margin-top: 1em !important;
+    background-color: rgb(240, 209, 52) !important;
+    color: white !important;
+    border: none !important; 
+}
+
