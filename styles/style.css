@@ -76,6 +76,7 @@ footer {
     font-weight: bold;
     margin: 2% 0.1% !important;
     padding: 1em !important;
+   
   
 }
 
@@ -83,8 +84,8 @@ footer {
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.356) !important;
     background-color: rgb(248, 248, 248) !important;
     flex: 1 !important;
-    padding: 3em !important;
-    margin: 2% 1% !important;
+    padding: 1em !important;
+    margin: 2% 0.1% !important;
     text-align: center !important;
 }
 
@@ -104,4 +105,38 @@ footer {
     color: white !important;
     border: none !important; 
 }
+.imagens-bloco{
+    justify-content: center !important;
+}
 
+@media (min-width:200px) and (max-width: 768px){
+    
+    iframe {
+        width: 100% !important;
+    }
+
+    footer {
+        margin-top: 1em !important;
+    }
+
+    footer, h5 {
+        font-size: 1em !important;
+    }
+
+    .pacotes-folder {
+        width: 90% !important;
+        margin: 1em !important;
+    }
+
+    .nav-item {
+        width: 60% !important;;
+        margin: 1px !important;
+        padding: 1px !important;
+    }
+    
+    .nav__menu {
+        font-size: 1em !important;
+        padding: 5px !important;
+    }
+
+}
